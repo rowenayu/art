@@ -2,22 +2,24 @@ import styled from 'styled-components'
 
 const Wrapper = styled.section`
   body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: linear-gradient(45deg, greenyellow, dodgerblue);
-  font-family: "Sansita Swashed", cursive;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, greenyellow, dodgerblue);
+    font-family: "Sansita Swashed", cursive;
+  }
   .center {
-  position: relative;
-  padding: 50px 50px;
-  background: #fff;
-  border-radius: 10px;
-}
+    position: relative;
+    padding: 50px 50px;
+    background: #fff;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-right:25%;
+    width: 50%;
+  }
   .center .inputbox {
   position: relative;
   width: 300px;
